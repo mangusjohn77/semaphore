@@ -1,5 +1,5 @@
 ---
-- hosts: hosts
+- hosts: Hosts
   become: true
   tasks:
     - name: Print OS Info
