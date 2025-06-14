@@ -1,5 +1,10 @@
+collections:
+  - 'namespace.collection'
+  # for common collections:
+  - 'community.general'
+  - 'ansible.posix'
+  - 'community.mysql'
+  - 'community.crypto'
 
 roles:
-
-collections:
-
+  - src: 'namespace.role'
